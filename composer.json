@@ -1,0 +1,20 @@
+{
+    "name": "kafene/jprintf",
+    "description": "Provides a printf family of functions for PHP using JSON to encode non-string values.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "files": [
+            "jprintf.php"
+        ],
+        "psr-4": {
+            "kafene\\Tests\\": "tests/"
+        }
+    }
+}
